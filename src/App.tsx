@@ -34,7 +34,7 @@ export default function WholeSlideViewer() {
   const [activeTab, setActiveTab] = useState<"table" | "chart">("table");
   const [rotation, setRotation] = useState(0);
   const [viewMode, setViewMode] = useState<"split" | "full">("split");
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [, setPosition] = useState({ x: 0, y: 0 });
 
   const timeRef = useRef<HTMLSpanElement>(null);
 
